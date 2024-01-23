@@ -1,13 +1,13 @@
 This project depends on `Eigen` and `openCV`.  
 `Eigen` is included.  
-`openCV` is used only for debug. If you use `DO_NOT_TEST=ON` or `DO_NOT_USE_OPENCV=ON` flags while configure cmake, you don't need to install `openCV`.
+`openCV` is used only for debug. If you use `DO_NOT_TEST=ON` or `DO_NOT_USE_OPENCV=ON` flags while configuring cmake, you don't need to install `openCV`.
 
 # Acknowledgement
 I wrote these code while working at @viuron. This repository is public version.  
 Thanks to [JunHyok Kong](https://github.com/happie827) for helps while debugging and understanding Lucas-Kanade.
 
 # Documentation
-I used `doxygen`.  
+used `doxygen`.  
 To generate documentation, go to `doc` and
 ```
 doxygen doxy.conf
@@ -25,7 +25,7 @@ doxygen doxy.conf
 ```
 (x, y, 1)
 ## Attention
-We need to access value in eigen with (row, column) but in calculating image we need to use (column, row, 1). 
+The way accessing value in eigen is `(row, column)` but in calculating image, the way is `(column, row, 1)`. 
 
 # References
 1. https://www.ri.cmu.edu/pub_files/pub3/baker_simon_2004_1/baker_simon_2004_1.pdf
