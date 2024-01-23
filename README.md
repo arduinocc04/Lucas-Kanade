@@ -3,7 +3,7 @@ This project depends on `Eigen` and `openCV`.
 `openCV` is used only for debug. If you use `DO_NOT_TEST=ON` or `DO_NOT_USE_OPENCV=ON` flags while configuring cmake, you don't need to install `openCV`.
 
 # Acknowledgement
-I wrote these code while working at @viuron. This repository is public version.  
+I wrote these codes while working at [viuron](https://github.com/viuron/). This repository is public version of the codes.  
 Thanks to [JunHyok Kong](https://github.com/happie827) for helps while debugging and understanding Lucas-Kanade.
 
 # Documentation
