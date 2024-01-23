@@ -1,5 +1,5 @@
-This project depends on `Eigen` and `openCV`.
-`Eigen` is included.
+This project depends on `Eigen` and `openCV`.  
+`Eigen` is included.  
 `openCV` is used only for debug. If you use `DO_NOT_TEST=ON` or `DO_NOT_USE_OPENCV=ON` flags while configure cmake, you don't need to install `openCV`.
 
 # Acknowledgement
