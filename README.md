@@ -4,7 +4,7 @@ This project depends on `Eigen` and `openCV`.
 
 # Acknowledgement
 I wrote these code while working at @viuron. This repository is public version.  
-Thanks to @happie827(JunHyok Kong) for helps.
+Thanks to [JunHyok Kong](https://github.com/happie827) for helps while debugging and understanding Lucas-Kanade.
 
 # Documentation
 I used `doxygen`.  
